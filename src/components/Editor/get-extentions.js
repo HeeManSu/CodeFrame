@@ -1,4 +1,3 @@
-// import type { Extension } from "@codemirror/state";
 
 import { javascript } from "@codemirror/lang-javascript";
 import { python } from "@codemirror/lang-python";
