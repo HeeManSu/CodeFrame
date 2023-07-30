@@ -1,0 +1,29 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;1,500&display=swap");
+
+html {
+  color-scheme: dark;
+}
+
+@layer base {
+  body {
+    @apply bg-[#000000] text-gray-300;
+  }
+}
+
+.cm-editor.cm-focused {
+  outline: none !important;
+}
+
+.cm-editor {
+  padding: 0.5em;
+}
+.cm-editor .cm-scroller {
+  font-family: "Roboto Mono", monospace;
+}
