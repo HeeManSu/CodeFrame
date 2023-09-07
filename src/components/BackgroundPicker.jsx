@@ -59,13 +59,11 @@ const BackgroundPicker = () => {
                                 ))}
                             </ul>
                         </div>
-                        {tab === "colors" ? (
-                            <ColorsPanel />
-                        ) : tab === "gradients" ? (
-                            <GradientsPanel />
-                        ) : (
-                            <UnsplashPanel />
-                        )}
+                        {
+                            tab === "colors" ? (
+                                <ColorsPanel />
+                            ) : <GradientsPanel />
+                        }
                     </div>
                 </Popover.Content>
             </Popover.Root>

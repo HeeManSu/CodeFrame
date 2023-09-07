@@ -17,9 +17,7 @@ const Preview = () => {
     >
       <div
         className="mx-auto overflow-hidden w-fit bg-repeat bg-center rounded-xl relative"
-      // style={{
-      //   backgroundImage: "url(/transparent-bg-pattern.png)",
-      // }}
+
       >
         <div
           ref={canvasRef}
@@ -121,7 +119,6 @@ const Window = () => {
 
 
 const WindowTitleBar = () => {
-  // const [appState, setAppState] = useAtom(appStateAtom);
   const appState = useSelector((state) => state.appState);
   const dispatch = useDispatch();
 

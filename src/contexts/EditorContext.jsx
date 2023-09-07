@@ -2,7 +2,6 @@ import {
     createContext,
     useContext,
     useRef,
-    
 } from "react";
 
 
@@ -10,8 +9,6 @@ export const EditorContext = createContext(null);
 export const EditorProvider = ({ children }) => {
 
     const canvasRef = useRef(null);
-
-    
     return (
         <EditorContext.Provider
             value={{

@@ -2,8 +2,6 @@
 # CodeFrame
 CodeFrame is a powerful and intuitive code snippet creation tool.
  
-
-
 ## Tech Stack
 
 - React

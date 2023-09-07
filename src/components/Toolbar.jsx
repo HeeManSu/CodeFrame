@@ -3,8 +3,6 @@ import {  MdCheck } from "react-icons/md";
 import BackgroundPicker from "./BackgroundPicker";
 import * as Select from "@radix-ui/react-select";
 import { toPng, toJpeg, toSvg } from "html-to-image";
-
-
 import { updateAppState, initialState } from "../store/slices/appStateSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { useEditor } from "../contexts/EditorContext";
